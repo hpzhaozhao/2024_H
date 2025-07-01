@@ -1,0 +1,15 @@
+"./empty.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./Board/board.o"
+"./bsp/src/eight_ways.o"
+"./bsp/src/encoder.o"
+"./bsp/src/jy61p.o"
+"./bsp/src/motor.o"
+"./bsp/src/pid.o"
+"./bsp/src/task.o"
+"./bsp/src/tft180.o"
+"./bsp/src/timer.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
